@@ -1,3 +1,13 @@
+---
+title: Treasury Label Verifier
+emoji: ???
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
 # AI-Powered Alcohol Label Verification App
 
 This is a Python prototype for the Treasury take-home assessment. It helps compliance agents compare alcohol label artwork against application fields using OCR, fuzzy matching, and rule-based validation.
@@ -31,7 +41,7 @@ This design is also explainable: agents can see what text was extracted, what wa
 ## Tools used
 
 - Python
-- Gradio for the web interface
+- FastAPI for the web interface
 - Tesseract OCR through pytesseract
 - OpenCV for image preprocessing
 - RapidFuzz for fuzzy matching
@@ -153,3 +163,4 @@ Future improvements could include:
 - Field-level bounding boxes showing where the app found each match
 - Integration with COLA application data
 - A human feedback loop to improve thresholds over time
+
