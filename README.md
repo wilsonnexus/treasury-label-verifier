@@ -1,6 +1,5 @@
----
+﻿---
 title: Treasury Label Verifier
-emoji: ???
 colorFrom: blue
 colorTo: indigo
 sdk: docker
